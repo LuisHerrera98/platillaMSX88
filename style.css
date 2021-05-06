@@ -1,0 +1,43 @@
+body{
+    margin:0;
+    padding:0;
+}
+.caja-planilla{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.caja-izquierda{
+    margin-top: 10px;
+    margin-left: 5%;
+    width: 45%;
+}
+.caja-derecha{
+    width: 45%;
+    margin-top: 10px;
+    margin-right: 5%;
+}
+.caja-derecha input{
+    width: 23%;
+    text-align: center;
+    font-weight: bold;
+}
+
+.caja-izquierda input{
+    width: 23%;
+    text-align: center;
+    font-weight: bold;
+}
+.input-nombre{
+    background-color: black;
+    color: blanchedalmond;
+    text-align: center;
+}
+.regs{
+    background-color: gray;
+    color: honeydew;
+    text-align: center;
+}
+input{
+    height: 13.5px;
+}
